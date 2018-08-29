@@ -28,16 +28,16 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 %% Magic para tener foto en el banking type
-\patchcmd{\makehead}
-  {\hfil}
-  {\hspace*{0.15\textwidth}}
-  {}
-  {}
-\patchcmd{\makehead}
-  {\setlength{\makeheaddetailswidth}{0.8\textwidth}}
-  {\setlength{\makeheaddetailswidth}{0.67\textwidth}}
-  {}
-  {}
+%\patchcmd{\makehead}
+%  {\hfil}
+%  {\hspace*{0.15\textwidth}}
+%  {}
+%  {}
+%\patchcmd{\makehead}
+%  {\setlength{\makeheaddetailswidth}{0.8\textwidth}}
+%  {\setlength{\makeheaddetailswidth}{0.67\textwidth}}
+%  {}
+%  {}
 %\patchcmd{\makehead}
   %{\\[2.5em]}
   %{\hfil\raisebox{-.7cm}{\framebox{\includegraphics[width=\@photowidth]{\@photo}}}\\[2.5em]}
@@ -53,7 +53,7 @@
 % \phone[fax]{+3~(456)~789~012}
 \email{julioguella@hotmail.com}                               % optional, remove / comment the line if not wanted
 % \homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
-% \social[linkedin]{}                        % optional, remove / comment the line if not wanted
+\social[linkedin]{julio-joaquín-güella}                        % optional, remove / comment the line if not wanted
 % \social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
 \social[github]{juliojg}                              % optional, remove / comment the line if not wanted
 % \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
@@ -92,9 +92,10 @@
   \subsection{Proyectos de la universidad}
     % \renewcommand{\labelitemi}{$\bullet$}
     \begin{itemize}
-      \item Sistema operativo Nachos.
-      \item Pequeño sistema distribuido cliente-servidor en Erlang.
-      \item Parser y evaluador monádico de un intérprete de expresiones aritméticas simples y lambda cálculo.  
+      \item Realización del sistema operativo educativo NachOS en un grupo de tres personas.
+      \item Trabajé junto a tres personas implementando un sistema distribuido cliente-servidor en Erlang.
+      \item Interfaz por consola para administrar una base de datos de alimentos y las calorías de estos en Haskell.
+      \item Parser y evaluador monádico de un intérprete de expresiones aritméticas simples y lambda cálculo en Haskell.
     \end{itemize}
   % \subsection{Ambito profesional}
 
@@ -162,6 +163,12 @@
 
 \cvitemwithcomment{Sistemas Operativos}{}{\textbf{GNU/Linux, Windows}}
 %\section{Intereses}
+
+\section{Cursos relevantes}
+\begin{cvcolumns}
+  \cvcolumn{Principales}{\begin{itemize}\item Estructuras de Datos y Algoritmos \item Machine Learning \item Bases de Datos Relacionales\item Lenguajes Formales y Computabilidad\item Lógica en Cs. de la Computación\end{itemize}}
+  \cvcolumn{Otros}{\begin{itemize}\item Ingeniería de Software y Especificación \item Arquitectura del Computador\item Probabilidad y Estadística\item Teoría de Grafos \itemÁlgebra Lineal y Cálculo\end{itemize}}
+\end{cvcolumns}
 
 %\section{Hobbies e intereses}
   %\cvlistdoubleitem{}{}%{}
